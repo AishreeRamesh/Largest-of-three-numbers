@@ -19,35 +19,39 @@ stop
 ## Program:
 ```c#
 using System;
-
 namespace largestnum
 {
-class Program
-{
-static void Main(string[] args)
-{
-int num1, num2, num3;
-
-num1 = Convert.ToInt32(Console.ReadLine());
-num2 = Convert.ToInt32(Console.ReadLine());
-num3 = Convert.ToInt32(Console.ReadLine());
-
-if(num1 > num2 && num1 > num3)
-{
-Console.WriteLine("The Largest Number is " + (num1));
-}
-
-else if(num2 > num1 && num2 > num3)
-{
-Console.WriteLine("The Largest Number is " + (num2));
-}
-
-else
-{
-Console.WriteLine("The Largest Number is " +(num3));
-}
-}
-}
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int num1, num2, num3;
+            
+            num1 = Convert.ToInt32(Console.ReadLine());
+            num2 = Convert.ToInt32(Console.ReadLine());
+            num3 = Convert.ToInt32(Console.ReadLine());
+            
+            if(num1 > num2 && num1 > num3)
+            {
+                Console.WriteLine("The Largest Number is " + (num1));
+                
+            }
+            
+            else if(num2 > num1 && num2 > num3)
+            {
+                Console.WriteLine("The Largest Number is " + (num2));
+                
+            }
+            else
+            {
+                Console.WriteLine("The Largest Number is " +(num3));
+                
+            }
+            
+        }
+        
+    }
+    
 }
 ```
 
